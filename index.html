@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practical Note Converter</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- CodeMirror-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/codemirror.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/theme/material.css">
+  <!-- Highlight.js-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css">
+  <!-- Font Awesome for PDF icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- html2canvas library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="editor">
+      <div id="editor-container" class="half-container">
+        <div id="editor"></div>
+      </div>
+      <div id="html-output-container" class="half-container">
+        <div id="html-output"></div>
+      </div>
+      <div class="buttons-container">
+        <button id="clear-editor-btn" class="btn">
+          Clear <i class="fas fa-eraser"></i>
+        </button>
+        <button id="copy-html-btn" class="btn">
+          HTML <i class="fas fa-copy"></i>
+        </button>
+        <button id="generate-pdf-btn" class="btn btn-pdf">
+          PDF <i class="fas fa-file-pdf"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+    © 2024 Practical Note Converter. Developed by <a href="https://github.com/omarcocosta" target="_blank">Marco Costa</a>.
+  </footer>
+  
+  <!-- CodeMirror JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.9/mode/markdown/markdown.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/javascript.min.js"></script>
+  <script src="assets/js/snackbar.js"></script>
+  <script src="assets/js/editor.js"></script>
+  <script src="assets/js/clipboard.js"></script>
+  <script src="assets/js/pdf.js"></script>
+  <script src="assets/js/render.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
