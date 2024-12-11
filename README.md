@@ -2,6 +2,14 @@
 
 **Practical Note Converter** is a practical and intuitive tool to convert Markdown text into HTML, with features that preserve the original formatting. It simplifies the creation of stories and cards in DevOps. Additionally, the tool allows you to generate PDF files with the rendered content.
 
+---
+
+## 🌟 Access the Tool
+
+You can use **Practical Note Converter** directly at this link: [Practical Note Converter](https://o-marcocosta.github.io/Practical-Note-Converter/)
+
+---
+
 ## 🚀 Main Objective
 
 Facilitate the writing and formatting of Markdown content while maintaining a visually pleasing and consistent style when transferring to platforms like DevOps. Ideal for creating stories, cards, and technical notes without losing the aesthetics of the formatting.
@@ -41,7 +49,6 @@ Facilitate the writing and formatting of Markdown content while maintaining a vi
 
 ## 📜 License
 
-```
 Copyright (2024) Marco Túlio dos Santos Costa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), for personal and non-commercial use only, subject to the following conditions:
@@ -56,7 +63,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 3. **No Warranty**:
    - THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
-```
 
 See the complete license file [here](./LICENSE).
 
@@ -73,3 +79,4 @@ Contributions are welcome! Feel free to open an issue or submit a pull request w
 If you have any questions or suggestions, feel free to reach out:
 - **Email**: [marcotscosta@gmail.com](mailto:marcotscosta@gmail.com)
 - **GitHub**: [omarcocosta](https://github.com/omarcocosta)
+
